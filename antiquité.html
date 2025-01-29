@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <link type="text/css" rel="stylesheet" href="feuillestyle.css">
+    <title>Antique</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu_navigation">
+                <li class="menu"><a href="index.html">Accueil</a></li>
+                <li class="menu_actif"><a href="#antique">Antique</a></li>
+                <li class="menu"><a href="medieval.html"> Médiévale</a></li>
+                <li class="menu"><a href="moderne.html">Moderne</a></li>
+                <li class="menu"><a href="contemporain.html"> Contemporaine</a></li>
+                <li class="menu"><a href="actualit%C3%A9s.html"> Actualités</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Question 4-->
+         <form action="antiquité.html" method="get" onsubmit="return validateForm()">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required /><br />
+
+            <label for="mail">Mail :</label>
+            <input type="email" id="mail" name="mail" required /><br />
+
+            <label for="mdp">Mot de passe :</label>
+            <input type="password" id="mdp" name="mdp" required /><br />
+             
+             <label for="confirmPassword">Confirmer le mot de passe :</label>
+             <input type="password" id="confirmPassword" name="confirmPassword" required /><br />
+             
+             <label for="age">Age :</label>
+             <input type="number" id="age" name="age" required /><br />
+
+             <label for="eval">Évaluez le niveau de vos connaissances en Histoire de l'art sur 5 (1 vous n'avez aucune connaissance) :</label>
+            <select name="autoeval" id="eval">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="3">4</option>
+                <option value="3">5</option>
+             </select>
+             
+            <button type="submit">Envoyer</button>
+        </form>
+             
+    <h1 class="periode">Période Antique</h1>
+    <h3> Les différentes periodes de l'histoire de l'art Antique gréco-romaine:</h3>
+    <ul class="list">
+        <li>L'Art grec : 1050 - 31 av. J.-C</li>
+        <li>L'Art romain : 509 av. J.-C. - 476 ap. J.-C. (en Occident)</li>
+        <li>L'Art byzantin : 330 - 1453 ap. J.-C.</li>
+
+    </ul>
+    <p> L'art antique greco-romain a été une source d'inspiration fondamentale de l'art occidental. Les oeuvres : peintures, sculptures, architectures, fresques, poteries ont pendant longtemps incarné un idéal de beauté, de perfection. Pour la première fois, durant cette période, que des artistes laissent leur nom : Polyclète, Phidias, Myron, Praxitèle. L'art de la Grèce antique se divise en plusieurs périodes : Période Géométrique, Archaïque, Classique et hellénistique. Il existe de nombreuses copies de l'art grec par les artistes romains qui en sont les héritiers et inventeront de nouvelles techniques durant l'Empire romain. Il est à noter qu'à l'origine la quasi-totalité des sculptures, architectures étaient peintes et qu'aujourd'hui elles ont perdue leurs couleurs laissant visible le marbre blanc.</p>
+
+    <h2 class="exemple_oeuvres"> Exemples d'oeuvres</h2>
+    <figure>
+        <img class="oeuvre" src="image/DIANE.JPG" height="550" width="408" />
+        <figcaption> © 2011 <a href="https://collections.louvre.fr/ark:/53355/cl010278930">Musée du Louvre</a>, Dist. GrandPalaisRmn / Thierry Ollivier</figcaption>
+    </figure>
+    <div>
+        <p> <span class="artiste">Artiste inconnu</span>, <span class="titres_oeuvres">Diane de Versailles</span>, 2e quart du IIe s. ap. J.-C., 200 x 139cm, statue, Paris, Musée du Louvre.</p>
+
+        <p class="description"> Il s'agit d'une copie romaine en marbre d'un bronze de l'artiste grec Léocharès (artiste présumé) de la période hellénistique. C'est une sculpture de marbre de la période héllenistique. On reconnaît les attributs de Diane ou de son nom grecque Artémis déesse de la chasse et de l'indépendance : le carquois, les flèches, le cerf et une expression confiante. Elle se tient debout tenant un cerf d'une main et sortant une flèche de son carquois de l'autre, elle porte un diadème et est vêtue d'un drapé. Cette oeuvre montre la maîtrise de la sculpture par ce sentiment de mouvement dans sa posture et incarne les idéaux esthétiques avec des traits idéalisés et techniques de la sculpture antique.</p>
+    </div>
+    <!--Question 1-->
+    <button id="back-to-top"> ↑ Haut de page</button>
+    <script src="javascript.js"></script>
+    <!--Question 3-->
+    <footer>
+        <div>Nous sommes le : <span id="date"></span></div>
+        <div>Heure actuelle : <span id="clock"></span></div>
+        <p> Nos contacts :</p>
+        <ul class="contacts">
+            <li class="contacts">
+                <p> noemie.lafon@etu.univ-tours.fr </p>
+            </li>
+            <li class="contacts">
+                <p> iness.david@etu.univ-tours.fr</p>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

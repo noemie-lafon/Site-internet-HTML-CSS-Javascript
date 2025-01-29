@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <link type="text/css" rel="stylesheet" href="feuillestyle.css">
+    <title>accueil</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu_navigation">
+                <li class="menu_actif"><a href="#index">Accueil</a></li>
+                <li class="menu"><a href="antiquit%C3%A9.html">Antique</a></li>
+                <li class="menu"><a href="medieval.html">Médiévale</a></li>
+                <li class="menu"><a href="moderne.html">Moderne</a></li>
+                <li class="menu"><a href="contemporain.html"> Contemporaine</a></li>
+                <li class="menu"><a href="actualit%C3%A9s.html"> Actualités</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!--Question 5-->
+    <h2 id="nom-prompt">Bienvenue, utilisateur !</h2>
+
+    <h1>Présentation de notre projet :</h1>
+    <div>
+        <p>Nous sommes deux étudiantes en première année de master Humanités Numériques au Centre d'Études Supérieures de la Renaissance (CESR), rattaché à l'Université de Tours. Dans le cadre de notre cours de Web et systèmes d'exploitation, nous avons souhaité créer un site internet de vulgarisation de l'histoire de l'art défini par des périodes et illustré par des oeuvres que nous apprécions et qui sont plus ou moins connues du grand public. Bien évidemment, les informations sont incomplètes, le but étant de surtout travailler le HTML et le CSS.</p>
+        <p>Le menu de navigation situé ci-dessus vous permettra de découvrir les différentes oeuvres sélectionnées pour chaque époque. Bonne navigation !</p>
+    </div>
+
+    <h2> Nos oeuvres favorites :</h2>
+    <ul class="les_favoris">
+        <li class="les_favoris"><a href="favroisNoemie.html"><img class="oeuvre" src="image/MONET.jpg" width="600" height="477"></a></li>
+        <li class="les_favoris">Cliquez pour obtenir des informations sur l'oeuvre favorite de Noémie.</li>
+        <li class="les_favoris"><a href="favorisIness.html"><img class="oeuvre" src="image/image_iness.jpeg" width="600" height="400"></a></li>
+        <li class="les_favoris">Cliquez pour obtenir des informations sur l'oeuvre favorite d'Iness.</li>
+    </ul>
+    
+    <!--Question 1-->
+    <button id="back-to-top"> ↑ Haut de page</button>
+    <script src="javascript.js"></script>
+    <footer>
+        <!--Question 3-->
+        <div>Nous sommes le : <span id="date"></span></div>
+        <div>Heure actuelle : <span id="clock"></span></div>
+        <p> Nos contacts :</p>
+        <ul class="contacts">
+            <li class="contact">
+                <p> noemie.lafon@etu.univ-tours.fr </p>
+            </li>
+            <li class="contacts">
+                <p> iness.david@etu.univ-tours.fr</p>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
