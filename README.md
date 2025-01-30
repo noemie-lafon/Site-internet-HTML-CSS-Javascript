@@ -1,4 +1,4 @@
-# Site Internet HTML, CSS, JavaScript - Vulgarisation de l'Histoire de l'Art
+# Site Internet HTML, CSS, JavaScript
 
 ## Auteurs
 
@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Nous sommes deux étudiantes en première année de Master en Humanités Numériques au CESR, à l'Université de Tours. Dans le cadre de notre cours de Web et Systèmes d'Exploitation, nous avons développé un site internet de vulgarisation de l'histoire de l'art. Ce site est divisé par périodes artistiques et illustré par des œuvres que nous apprécions. L’objectif principal est de travailler sur le HTML, le CSS, et d'intégrer des éléments interactifs avec JavaScript.
+Nous sommes deux étudiantes en première année de Master en Humanités Numériques. Dans le cadre de notre cours de Web et Systèmes d'Exploitation, nous avons développé un site internet de vulgarisation de l'histoire de l'art. Ce site est divisé par périodes artistiques et illustré par des œuvres que nous apprécions. L’objectif principal est de travailler sur le HTML, le CSS, et d'intégrer des éléments interactifs avec JavaScript.
 
 ---
 
