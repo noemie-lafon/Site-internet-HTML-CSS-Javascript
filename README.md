@@ -2,9 +2,8 @@
 
 ## Auteurs
 
-**Auteurs :** [Noémie Lafon Iness David]  
-**Master 1 :** Humanités numériques  
-**Université :** Université de Tours - Centre d'Études Supérieures de la Renaissance (CESR)  
+**Auteurs :** Noémie Lafon Iness David  
+**Master 1 :** Humanités numériques    
 **Date :** decembre 2024
 
 ---
