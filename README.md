@@ -34,3 +34,8 @@ Nous sommes deux étudiantes en première année de Master en Humanités Numéri
 ## logiciel utilisé
 
 **Brackets**
+
+---
+## Accès au site
+
+[lien du site](https://noemie-lafon.github.io/Site-internet-HTML-CSS-Javascript/)
